@@ -12,7 +12,7 @@ export default function MainBannerCarousel(props) {
     spaceBetween: 0,
     autoplay: { delay: 3500, disableOnInteraction: true },
   };
-  const imgLoc = '../../../public/img/MainBanner/swiperBanner';
+  const imgLoc = '@/../public/img/MainBanner/swiperBanner';
   const bannerImgList = [imgLoc + '1.jpg', imgLoc + '2.jpg', imgLoc + '3.jpg'];
 
   const swiperSliderContensArray = loadSwiperSlider(
