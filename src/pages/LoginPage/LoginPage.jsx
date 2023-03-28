@@ -49,7 +49,7 @@ function LoginPage() {
     if (data) {
       setCurrentUser(data);
       setIsLoggedIn(true);
-      navigate('/');
+      navigate('/React-Web-Market/');
 
       // console.log(data);
     }
