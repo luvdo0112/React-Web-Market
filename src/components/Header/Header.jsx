@@ -179,7 +179,7 @@ function Header() {
             <ul className={classes.kurly}>
               <li>
                 <h1 className={classes.kurly__logo}>
-                  <Link to={'/'}>
+                  <Link to={'/React-Web-Market/'}>
                     <div className={classes.kurly__logo_container}>
                       <img
                         alt="kurly logo"
@@ -192,7 +192,7 @@ function Header() {
                 </h1>
               </li>
               <li>
-                <Link to={'/'}>밥을사자</Link>
+                <Link to={'/React-Web-Market/'}>밥을사자</Link>
               </li>
               <li>
                 <a className={classes.kurly__beauty} href="#!">
