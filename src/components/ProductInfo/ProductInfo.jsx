@@ -4,6 +4,8 @@ import { useRecoilState } from 'recoil';
 import { useEffect, useRef, useState } from 'react';
 import { changePriceNumToString } from '@/utils/priceNumberToString';
 import { changePriceNumToStringNoWon } from '@/utils/priceNumberToStringNoWon';
+import hearton from '@/../public/img/ProductDetail/heart-on.svg';
+import alarmoff from '@/../public/img/ProductDetail/alarm-off.svg';
 
 export function ProductInfo() {
   const [CurrentProduct, setCurrentProduct] =
@@ -237,13 +239,10 @@ export function ProductInfo() {
             원
           </p>
           <div className={classes.btnArea}>
-            <img
-              alt="관심 상품으로 등록되어 있습니다."
-              src="img/ProductDetail/heart-on.svg"
-            />
+            <img alt="관심 상품으로 등록되어 있습니다." src={hearton} />
             <img
               alt="해당 상품의 재입고 알림을 받지 않는 상태입니다."
-              src="img/ProductDetail/alarm-off.svg"
+              src={alarmoff}
             />
             <button
               className={classes.btnAreaAddCartBtn}
